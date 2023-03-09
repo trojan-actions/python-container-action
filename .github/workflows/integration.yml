@@ -9,7 +9,7 @@ jobs:
         id: selftest
 
         # Put your action repo here
-        uses: trojan-actions/puthon-container-action@master
+        uses: ./
 
       - name: Check outputs
         run: |
